@@ -1,4 +1,4 @@
-import 'package:facebookui/FoodDishes/AllFood.dart';
+import 'package:facebookui/Food_Listing/home.dart';
 import 'package:facebookui/screen/signup.dart';
 import 'package:facebookui/widgets/SubmitButton.dart';
 import 'package:facebookui/widgets/customscreen.dart';
@@ -80,8 +80,7 @@ class _SignInPageState extends State<SignInPage> {
                                 Navigator.push(
                                     context,
                                     MaterialPageRoute(
-                                        builder: (context) =>
-                                            const AllfoodPage()));
+                                        builder: (context) => HomePage()));
 
                                 ScaffoldMessenger.of(context).showSnackBar(
                                   const SnackBar(

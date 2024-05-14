@@ -35,6 +35,8 @@ dependencies:
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.6
+  google_nav_bar: ^5.0.6
+  line_icons: ^2.0.3
 
 dev_dependencies:
   flutter_test:
@@ -56,11 +58,19 @@ flutter:
   # The following line ensures that the Material Icons font is
   # included with your application, so that you can use the icons in
   # the material Icons class.
-  # uses-material-design: true
-
+  uses-material-design: true
   assets:
-   - assets/brooke-lark-lcZ9NxhOSlo-unsplash.jpg
-   - assets/food.png
+    - assets/brooke-lark-lcZ9NxhOSlo-unsplash.jpg
+    - assets/shourav-sheikh-a66sGfOnnqQ-unsplash.jpg
+    - assets/amirali-mirhashemian-sc5sTPMrVfk-unsplash.jpg
+    - assets/ben-lei-flFd8L7_B3g-unsplash.jpg
+    - assets/deepal-tamang-lQCNRLzriGk-unsplash.jpg
+    - assets/jennifer-schmidt-zOlQ7lF-3vs-unsplash.jpg
+    - assets/prasanta-kr-dutta-yu8eJpRvlS8-unsplash.jpg
+    - assets/shiv-singh-Vj-J5xNjnxA-unsplash.jpg
+    - assets/alex-bayev-BUPlkEeDmMk-unsplash.jpg
+    - assets/fernando-santos-DppzIK9TAxY-unsplash.jpg
+    - assets/pexels-thngocbich-840216.jpg
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware
 

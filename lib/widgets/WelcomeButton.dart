@@ -34,9 +34,8 @@ class _CustomWelcomeButtonState extends State<CustomWelcomeButton> {
                         end: Alignment.bottomCenter)
                     : const LinearGradient(
                         colors: [
-                          Color.fromARGB(255, 22, 66, 34),
-                          Color.fromARGB(31, 176, 54, 54),
-                          Color.fromARGB(221, 121, 30, 30)
+                          Color.fromARGB(255, 242, 124, 177),
+                          Color.fromARGB(221, 138, 239, 120)
                         ],
                       ),
                 borderRadius: const BorderRadius.all(Radius.circular(20))),

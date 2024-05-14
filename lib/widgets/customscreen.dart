@@ -1,7 +1,6 @@
 import 'dart:ui';
 
 import 'package:flutter/material.dart';
-import 'package:flutter/widgets.dart';
 
 class CustomScreenScaffold extends StatefulWidget {
   final Widget child;
@@ -16,8 +15,6 @@ class _CustomScreenScaffoldState extends State<CustomScreenScaffold> {
 
   @override
   Widget build(BuildContext context) {
-    final screenWidth = MediaQuery.of(context).size.width;
-    final screenHeight = MediaQuery.of(context).size.height;
     return Scaffold(
       extendBodyBehindAppBar: true,
       body: Stack(
