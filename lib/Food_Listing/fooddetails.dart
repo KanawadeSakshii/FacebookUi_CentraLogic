@@ -1,6 +1,6 @@
+import 'package:facebookui/widgets/WelcomeButton.dart';
 import 'package:flutter/material.dart';
 import 'package:facebookui/model/food.dart';
-import 'package:facebookui/widgets/SubmitButton.dart';
 
 class FoodDetailPage extends StatelessWidget {
   final Food food;
@@ -71,17 +71,15 @@ class FoodDetailPage extends StatelessWidget {
             Row(
               mainAxisAlignment: MainAxisAlignment.spaceEvenly,
               children: [
-                SubmitButton(
-                  onPressed: () {
+                CustomWelcomeButton(
+                  onTap: () {
                     Navigator.pop(context); // Navigate back to previous screen
                   },
-                  buttonName: 'Back',
+                  buttonname: 'Back',
                 ),
-                SubmitButton(
-                  onPressed: () {
-                    // Handle order now action
-                  },
-                  buttonName: 'Order Now',
+                CustomWelcomeButton(
+                  onTap: () {},
+                  buttonname: 'Order Now',
                 ),
               ],
             ),

@@ -1,6 +1,6 @@
 import 'package:facebookui/Food_Listing/home.dart';
 import 'package:facebookui/screen/signup.dart';
-import 'package:facebookui/widgets/SubmitButton.dart';
+import 'package:facebookui/widgets/WelcomeButton.dart';
 import 'package:facebookui/widgets/customscreen.dart';
 import 'package:facebookui/widgets/inputField.dart';
 import 'package:flutter/material.dart';
@@ -73,9 +73,9 @@ class _SignInPageState extends State<SignInPage> {
                           isPassword: true,
                         ),
                         const SizedBox(height: 16),
-                        SubmitButton(
-                            buttonName: 'Sign In',
-                            onPressed: () {
+                        CustomWelcomeButton(
+                            buttonname: 'Sign In',
+                            onTap: () {
                               if (_formSignInKey.currentState!.validate()) {
                                 Navigator.push(
                                     context,

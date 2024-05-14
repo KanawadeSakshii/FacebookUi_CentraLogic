@@ -1,5 +1,5 @@
 import 'package:facebookui/screen/signin.dart';
-import 'package:facebookui/widgets/SubmitButton.dart';
+import 'package:facebookui/widgets/WelcomeButton.dart';
 import 'package:facebookui/widgets/customscreen.dart';
 import 'package:facebookui/widgets/inputField.dart';
 import 'package:flutter/material.dart';
@@ -95,9 +95,9 @@ class _SignUpPageState extends State<SignUpPage> {
                         const SizedBox(
                           height: 16,
                         ),
-                        SubmitButton(
-                            buttonName: 'Register',
-                            onPressed: () {
+                        CustomWelcomeButton(
+                            buttonname: 'Register',
+                            onTap: () {
                               if (_formSignupKey.currentState!.validate()) {
                                 Navigator.push(
                                     context,
