@@ -134,9 +134,10 @@ class ListViewWidget extends StatelessWidget {
         child: ListTile(
           contentPadding: const EdgeInsets.all(15.0),
           leading: ClipRRect(
-            borderRadius:
-                BorderRadius.circular(10.0), // Keep the rounded corners
+            borderRadius: BorderRadius.circular(10.0),
             child: Image.asset(
+              height: 100,
+              width: 100,
               food.imageUrl,
               fit: BoxFit.cover,
             ),
